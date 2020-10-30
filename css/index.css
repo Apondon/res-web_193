@@ -5,6 +5,30 @@
 .ct{
     text-align: center;
 }
+.clrfff{
+    color: #fff;
+}
+.clrorg{
+    color: orange;
+}
+.w50{
+    width: 50%;
+}
+.mgb20{
+    margin-bottom: 20px;
+}
+.clrb{
+    color: dodgerblue;
+}
+.clrlg{
+    color: lightgray;
+}
+.tr{
+    text-align: right;
+}
+.warp{
+    word-wrap: break-word;
+}
 /* 复写样式 */
 .nav>li>a {
    box-sizing: border-box;
@@ -164,4 +188,21 @@
 /* 讯息 */
 .infobox{
     text-align: center;
+}
+.infobox  .list-unstyled li{
+    text-align: left;
+}
+/* 联系1 */
+.tell{
+    height: 500px;
+    background: url(../imgs/tell_bg.png) no-repeat left top;
+    background-size: cover;
+}
+/* 联系2 */
+.connect{
+    background: #333;
+}
+/* 注册信息 */
+.copyright{
+    background:#000;
 }
