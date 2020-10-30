@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <!-- 导航 大屏-->
+    <!-- 反色导航条 -->
+    <nav class="navbar navbar-inverse visible-lg-block">
+        <!-- 响应式容器 -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1">
+                    <!-- logo -->
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">
+                            <img alt="Brand" src="./imgs/timg.jpg" height="100%">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <!-- 按钮 -->
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <ul class="nav nav-pills nav-justified">
+                                <li><a href="#">按钮</a></li>
+                                <li><a href="#">按钮</a></li>
+                                <li><a href="#">按钮</a></li>
+                                <li><a href="#">按钮</a></li>
+                                <li><a href="#">按钮</a></li>
+                                <li><a href="#">按钮</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <!-- 文字 -->
+                    <p class="navbar-text navbar-right"><em class="orgd glyphicon glyphicon-phone-alt"> 联系电话
+                            123-12345678</em></p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </nav>
+    <!-- 导航 小屏 -->
+    <h1 class="headNav visible-xs-block">
+        <img alt="Brand" src="./imgs/timg.jpg" height="80%">
+        <span class="glyphicon glyphicon-menu-hamburger pull-right" id='navBtn'></span>
+    </h1>
+    <div class="visible-xs-block">
+        <ul class="list-unstyled navList">
+            <li>nav-list</li>
+            <li>nav-list</li>
+            <li>nav-list</li>
+            <li>nav-list</li>
+            <li>nav-list</li>
+            <li>nav-list</li>
+        </ul>
+    </div>
+    <!-- 响应式容器 -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <div class="container-fluid">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="bg bg1"></div>
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="bg bg2"></div>      
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="bg bg3"></div>
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- 服务 -->
+    <div class="container-fluid">
+        <h1 class="sev-tit ct">Service</h1>
+        <p class="ct">
+            <small class="sev-txt">our full-service project</small>
+        </p>
+        <div class="row sev">
+            <div class="col-md-3  col-xs-6">
+                <div class="sev-bg1 "></div>
+            </div>
+            <div class="col-md-3  col-xs-6">
+                <div class="sev-bg2"></div>
+            </div>
+            <div class="col-md-3  col-xs-6">
+                <div class="sev-bg3"></div>
+            </div>
+            <div class="col-md-3  col-xs-6">
+                <div class="sev-bg4"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 产品 -->
+    <div class="container-fluid">
+        <h1 class="pjt-tit ct">Project</h1>
+        <p  class="ct">
+            <small class="pjt-txt">our best works show</small>
+        </p>
+        <div class="row pjt">
+            <div class="col-md-3 col-xs-6">
+                <div class="pjt-bg1">
+                    <div class="pjt-img"></div>
+                </div>
+            </div>
+            <div class="col-md-3  col-xs-6">
+                <div class="pjt-bg2">
+                    <div class="pjt-img"></div>
+                </div>
+            </div>
+            <div class="col-md-3  col-xs-6">
+                <div class="pjt-bg3">
+                    <div class="pjt-img"></div>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="pjt-bg4">
+                     <div class="pjt-img"></div>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="pjt-bg5">
+                     <div class="pjt-img"></div>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="pjt-bg6">
+                     <div class="pjt-img"></div>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="pjt-bg7">
+                     <div class="pjt-img"></div>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="pjt-bg8">
+                     <div class="pjt-img"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 关于我们 -->
+    <div class="container-fluid">
+        <h1 class="abu-tit ct">about us</h1>
+        <p  class="ct">
+            <small class="abu-txt">all about our work</small>
+        </p>
+        <div class="row">
+            <div class="col-md-3  col-xs-6">
+                <div class="sev-bg1 "></div>
+            </div>
+            <div class="col-md-3  col-xs-6">
+                <div class="sev-bg2"></div>
+            </div>
+            <div class="col-md-3  col-xs-6">
+                <div class="sev-bg3"></div>
+            </div>
+            <div class="col-md-3  col-xs-6">
+                <div class="sev-bg4"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 讯息 -->
+    <div class="infobox">
+        <a class="btn btn-primary" id="info" role="button" data-toggle="collapse" href="#collapseExample" 
+        aria-expanded="false" aria-controls="collapseExample">
+            Link with href
+        </a>
+    </div>
+    <div class="container-fluid">
+        <div class="collapse" id="collapseExample">
+            <div class="well">
+              ...
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/jquery.min.js"></script>
+<script src="./dist/js/bootstrap.min.js"></script>
+<script>
+    $(function(){
+        $('#navBtn').on('click',function(){
+            $('.navList').toggleClass('blc')
+        })
+    })
+</script>
+</html>

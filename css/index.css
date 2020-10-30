@@ -1,0 +1,167 @@
+/* 全局类名 */
+.blc{
+    display: block !important;
+}
+.ct{
+    text-align: center;
+}
+/* 复写样式 */
+.nav>li>a {
+   box-sizing: border-box;
+   min-height: 50px;
+   color: #fff;
+}
+
+.nav>li>a:hover , .nav>li>a:visited {
+   background: #337ab7;
+}
+
+.nav-pills>li>a {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+.orgd{
+    color: orange;
+}
+
+.logo{
+    padding: 0 15px;
+    min-height: 50px;
+    box-sizing: border-box;
+    font-size: 30px;
+
+}
+.navbar{
+    margin-bottom: 0;
+}
+
+/* 小屏导航 */
+.headNav{
+    width: 100%;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    margin: 0;
+}
+.headNav img{
+    margin-left: 10px;
+}
+
+/* 列表 */
+.navList{
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    background: #ccc;
+    color: #fff;
+    z-index: 10;
+}
+.navList li{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.navList li:focus , .navList li:hover{
+    background: dodgerblue;
+}
+
+/* banner */
+.bg{
+    width: 100%;
+    height: 350px;
+}
+.bg1{
+    background: brown;
+}
+.bg2{
+    background: chartreuse;
+}
+.bg3{
+    background: cyan;
+}
+
+/* 服务 */
+.sev .col-md-3{
+    padding: 0;
+}
+.sev-bg1{
+    height: 350px;
+    background: chartreuse;
+}
+.sev-bg2{
+    height: 350px;
+    background: firebrick;
+}
+.sev-bg3{
+    height: 350px;
+    background: cornflowerblue;
+}
+.sev-bg4{
+    height: 350px;
+    background: lightgrey;
+}
+/* 产品 */
+.pjt .col-md-3{
+    padding: 0;
+}
+.pjt-bg1{
+    height: 150px;
+    background: lightgrey;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.pjt-bg2{
+    height: 150px;
+    background: lightgrey;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.pjt-bg3{
+    height: 150px;
+    background: lightgrey;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.pjt-bg4{
+    height: 150px;
+    background: lightgrey;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.pjt-bg5{
+    height: 150px;
+    background: lightgrey;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.pjt-bg6{
+    height: 150px;
+    background: lightgrey;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.pjt-bg7{
+    height: 150px;
+    background: lightgrey;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.pjt-bg8{
+    height: 150px;
+    background: lightgrey;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.pjt-img{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+/* 讯息 */
+.infobox{
+    text-align: center;
+}
